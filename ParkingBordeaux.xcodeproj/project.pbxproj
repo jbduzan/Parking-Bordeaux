@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ParkingBordeauxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ParkingBordeauxAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* MapController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* NoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* NoteView.xib */; };
+		2840D7CE1179279E00D7F93C /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* MapView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		FD1EB44313728A1200F0227F /* Parking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1EB44213728A1200F0227F /* Parking.m */; };
+		FD1EB45F13728C2A00F0227F /* bookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1EB45E13728C2A00F0227F /* bookIcon.png */; };
+		FD440C0613B0A22400D76BAB /* rounded-fond1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD440C0513B0A22400D76BAB /* rounded-fond1.png */; };
+		FD6B7A26139F73F10038284E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B7A25139F73F10038284E /* JSONKit.m */; };
+		FD6B7C0F139FC1880038284E /* fond1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B7C0E139FC1880038284E /* fond1.png */; };
+		FD768007137D64A200E13E5F /* mapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD768006137D64A200E13E5F /* mapIcon.png */; };
+		FD76802A137D665100E13E5F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD768029137D665100E13E5F /* iAd.framework */; };
+		FD8FDAAE13717B9A004C4D44 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FDAAD13717B9A004C4D44 /* MapKit.framework */; };
+		FD8FDAD113717CE2004C4D44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FDAD013717CE2004C4D44 /* CoreLocation.framework */; };
+		FD8FDBAA1371A605004C4D44 /* NoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FDBA91371A605004C4D44 /* NoteController.m */; };
+		FD936D0C1376A4750002C211 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD936D0A1376A4750002C211 /* DetailView.m */; };
+		FD936D0D1376A4750002C211 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD936D0B1376A4750002C211 /* DetailView.xib */; };
+		FDAC746713A7A7F0005F763F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC746613A7A7F0005F763F /* Reachability.m */; };
+		FDAC746C13A7A805005F763F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAC746B13A7A805005F763F /* SystemConfiguration.framework */; };
+		FDAFE59F13A435A2008570B9 /* red-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAFE59D13A435A2008570B9 /* red-button.png */; };
+		FDAFE5A313A435AF008570B9 /* rounded-fond2.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAFE5A213A435AF008570B9 /* rounded-fond2.png */; };
+		FDAFE95E13A7526A008570B9 /* green-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAFE95D13A7526A008570B9 /* green-button.png */; };
+		FDCDDA971385CC47003B1279 /* icone_parking.png in Resources */ = {isa = PBXBuildFile; fileRef = FDCDDA961385CC47003B1279 /* icone_parking.png */; };
+		FDE44A5B1372AE4600BB1231 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE44A5A1372AE4600BB1231 /* libsqlite3.0.dylib */; };
+		FDE44ABC1372B38C00BB1231 /* SimpleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE44ABB1372B38C00BB1231 /* SimpleAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ParkingBordeauxAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingBordeauxAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ParkingBordeauxAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingBordeauxAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ParkingBordeaux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingBordeaux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* NoteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteView.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* ParkingBordeaux_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingBordeaux_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ParkingBordeaux-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ParkingBordeaux-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FD1EB44113728A1200F0227F /* Parking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parking.h; sourceTree = "<group>"; };
+		FD1EB44213728A1200F0227F /* Parking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parking.m; sourceTree = "<group>"; };
+		FD1EB45E13728C2A00F0227F /* bookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookIcon.png; sourceTree = "<group>"; };
+		FD440C0513B0A22400D76BAB /* rounded-fond1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rounded-fond1.png"; sourceTree = "<group>"; };
+		FD6B7A24139F73F00038284E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		FD6B7A25139F73F10038284E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		FD6B7C0E139FC1880038284E /* fond1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fond1.png; sourceTree = "<group>"; };
+		FD768006137D64A200E13E5F /* mapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapIcon.png; sourceTree = "<group>"; };
+		FD768029137D665100E13E5F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FD8FDAAD13717B9A004C4D44 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD8FDAD013717CE2004C4D44 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FD8FDBA81371A605004C4D44 /* NoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteController.h; sourceTree = "<group>"; };
+		FD8FDBA91371A605004C4D44 /* NoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteController.m; path = ../NoteController.m; sourceTree = "<group>"; };
+		FD936D091376A4750002C211 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		FD936D0A1376A4750002C211 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		FD936D0B1376A4750002C211 /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailView.xib; path = Classes/DetailView.xib; sourceTree = "<group>"; };
+		FDAC746513A7A7F0005F763F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FDAC746613A7A7F0005F763F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FDAC746B13A7A805005F763F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FDAFE59D13A435A2008570B9 /* red-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-button.png"; sourceTree = "<group>"; };
+		FDAFE5A213A435AF008570B9 /* rounded-fond2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rounded-fond2.png"; sourceTree = "<group>"; };
+		FDAFE95D13A7526A008570B9 /* green-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-button.png"; sourceTree = "<group>"; };
+		FDCDDA961385CC47003B1279 /* icone_parking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_parking.png; sourceTree = "<group>"; };
+		FDE44A5A1372AE4600BB1231 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FDE44ABA1372B38C00BB1231 /* SimpleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAnnotation.h; sourceTree = "<group>"; };
+		FDE44ABB1372B38C00BB1231 /* SimpleAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				FD8FDAAE13717B9A004C4D44 /* MapKit.framework in Frameworks */,
+				FD8FDAD113717CE2004C4D44 /* CoreLocation.framework in Frameworks */,
+				FDE44A5B1372AE4600BB1231 /* libsqlite3.0.dylib in Frameworks */,
+				FD76802A137D665100E13E5F /* iAd.framework in Frameworks */,
+				FDAC746C13A7A805005F763F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC746513A7A7F0005F763F /* Reachability.h */,
+				FDAC746613A7A7F0005F763F /* Reachability.m */,
+				28216C950DB411BC00E5133A /* MapController.h */,
+				28216C960DB411BC00E5133A /* MapController.m */,
+				1D3623240D0F684500981E51 /* ParkingBordeauxAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ParkingBordeauxAppDelegate.m */,
+				FD8FDBA81371A605004C4D44 /* NoteController.h */,
+				FD8FDBA91371A605004C4D44 /* NoteController.m */,
+				FD1EB44113728A1200F0227F /* Parking.h */,
+				FD1EB44213728A1200F0227F /* Parking.m */,
+				FDE44ABA1372B38C00BB1231 /* SimpleAnnotation.h */,
+				FDE44ABB1372B38C00BB1231 /* SimpleAnnotation.m */,
+				FD936D091376A4750002C211 /* DetailView.h */,
+				FD936D0A1376A4750002C211 /* DetailView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ParkingBordeaux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ParkingBordeaux */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ParkingBordeaux;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* ParkingBordeaux_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD440C0513B0A22400D76BAB /* rounded-fond1.png */,
+				FD6B7A27139F73F70038284E /* JsonKit */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				FDAFE95D13A7526A008570B9 /* green-button.png */,
+				FDAFE5A213A435AF008570B9 /* rounded-fond2.png */,
+				FDAFE59D13A435A2008570B9 /* red-button.png */,
+				FD6B7C0E139FC1880038284E /* fond1.png */,
+				FD1EB45E13728C2A00F0227F /* bookIcon.png */,
+				FD768006137D64A200E13E5F /* mapIcon.png */,
+				FDCDDA961385CC47003B1279 /* icone_parking.png */,
+				FD936D0B1376A4750002C211 /* DetailView.xib */,
+				2840D7CD1179279E00D7F93C /* MapView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* NoteView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* ParkingBordeaux-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				FD8FDAAD13717B9A004C4D44 /* MapKit.framework */,
+				FD8FDAD013717CE2004C4D44 /* CoreLocation.framework */,
+				FDE44A5A1372AE4600BB1231 /* libsqlite3.0.dylib */,
+				FD768029137D665100E13E5F /* iAd.framework */,
+				FDAC746B13A7A805005F763F /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6B7A27139F73F70038284E /* JsonKit */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B7A24139F73F00038284E /* JSONKit.h */,
+				FD6B7A25139F73F10038284E /* JSONKit.m */,
+			);
+			name = JsonKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ParkingBordeaux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ParkingBordeaux" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingBordeaux;
+			productName = ParkingBordeaux;
+			productReference = 1D6058910D05DD3D006BFB54 /* ParkingBordeaux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ParkingBordeaux" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ParkingBordeaux */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ParkingBordeaux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* NoteView.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* MapView.xib in Resources */,
+				FD1EB45F13728C2A00F0227F /* bookIcon.png in Resources */,
+				FD936D0D1376A4750002C211 /* DetailView.xib in Resources */,
+				FD768007137D64A200E13E5F /* mapIcon.png in Resources */,
+				FDCDDA971385CC47003B1279 /* icone_parking.png in Resources */,
+				FD6B7C0F139FC1880038284E /* fond1.png in Resources */,
+				FDAFE59F13A435A2008570B9 /* red-button.png in Resources */,
+				FDAFE5A313A435AF008570B9 /* rounded-fond2.png in Resources */,
+				FDAFE95E13A7526A008570B9 /* green-button.png in Resources */,
+				FD440C0613B0A22400D76BAB /* rounded-fond1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ParkingBordeauxAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* MapController.m in Sources */,
+				FD8FDBAA1371A605004C4D44 /* NoteController.m in Sources */,
+				FD1EB44313728A1200F0227F /* Parking.m in Sources */,
+				FDE44ABC1372B38C00BB1231 /* SimpleAnnotation.m in Sources */,
+				FD936D0C1376A4750002C211 /* DetailView.m in Sources */,
+				FD6B7A26139F73F10038284E /* JSONKit.m in Sources */,
+				FDAC746713A7A7F0005F763F /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ParkingBordeaux_Prefix.pch;
+				INFOPLIST_FILE = "ParkingBordeaux-Info.plist";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					iAd,
+				);
+				PRODUCT_NAME = ParkingBordeaux;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ParkingBordeaux_Prefix.pch;
+				INFOPLIST_FILE = "ParkingBordeaux-Info.plist";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					iAd,
+				);
+				PRODUCT_NAME = ParkingBordeaux;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jean-Baptiste DUZAN (9C6L24X25R)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6CFAE5A2-F9C2-43E9-9C35-A522CD3BA88A";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jean-Baptiste DUZAN";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B1B768B-9719-4B3A-8ECF-ED7B27098ADB";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		FDCDDA681385C5AC003B1279 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jean-Baptiste DUZAN";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B1B768B-9719-4B3A-8ECF-ED7B27098ADB";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		FDCDDA691385C5AC003B1279 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ParkingBordeaux_Prefix.pch;
+				INFOPLIST_FILE = "ParkingBordeaux-Info.plist";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					iAd,
+				);
+				PRODUCT_NAME = ParkingBordeaux;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ParkingBordeaux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				FDCDDA691385C5AC003B1279 /* Distribution */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ParkingBordeaux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				FDCDDA681385C5AC003B1279 /* Distribution */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
